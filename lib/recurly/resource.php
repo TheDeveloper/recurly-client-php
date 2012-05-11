@@ -2,7 +2,7 @@
 
 abstract class Recurly_Resource extends Recurly_Base
 {
-  protected $_values;
+  public $_values;
   protected $_unsavedKeys;
   protected $_errors;
 
